@@ -4,13 +4,9 @@
  */
 
 
-package org.myprose;
+package com.ggaidukk;
 
-/**
- * Hello world!
- *
- */
-public class App 
+public class MyProse 
 {
     public static void main( String[] args )
     {
