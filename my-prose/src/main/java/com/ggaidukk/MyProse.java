@@ -6,10 +6,13 @@
 
 package com.ggaidukk;
 
-public class MyProse 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import de.htw_berlin.fb4.ossd.prose.Prose;
+
+public class MyProse implements Prose {
+    private String text = "Das ist ein einfacher Prose-Text";
+
+    @Override
+    public String get() {
+        return text;
     }
 }
